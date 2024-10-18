@@ -153,7 +153,7 @@ def call_vision_api(image_path:str):
         "content": [
             {
             "type": "text",
-            "text": "What is this chip type? Only provide the name of the chip type without any additional information."
+            "text": prompt
             },
             {
             "type": "image_url",
